@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/obforfair/web/www-dev/src/www.genshuixue.com/app/behavior'
+let g:netrw_dirhist_2='/Users/obforfair/.oh-my-zsh'
+let g:netrw_dirhist_3='/Users/obforfair/.pip'
+let g:netrw_dirhist_4='/Users/obforfair/bin'
+let g:netrw_dirhist_5='/Users/obforfair/.ssh'

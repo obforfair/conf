@@ -1,0 +1,14 @@
+ Host vpc
+     Hostname loginvpc.baijiahulian.com
+     User zhouwei
+     IdentityFile ~/.ssh/zhouwei.pem
+
+ Host test
+     Hostname 172.16.2.1
+
+ Host dev
+     Hostname 172.16.2.9
+
+ Host test dev
+     User zhouwei
+     ProxyCommand ssh vpc -W %h:%p

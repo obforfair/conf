@@ -1,0 +1,45 @@
+
+ssh-kengen -f ~/.ssh/zhouwei.pem -p 去密码
+
+
+config
+
+
+ Host vpc
+     Hostname loginvpc.baijiahulian.com
+     User zhouwei
+     IdentityFile ~/.ssh/zhouwei.pem
+
+ Host test
+     Hostname 172.16.2.1
+
+ Host dev
+     Hostname 172.16.2.9
+
+ Host test dev
+     User zhouwei
+     ProxyCommand ssh vpc -W %h:%p
+
+dev:
+    vim ~/.ssh/authorized_keys
+    chmod 600 authorized_keys
+test
+    vim ~/.ssh/authorized_keys
+
+
+错误：
+protocol version mismatch -- is your shell clean?
+(see the rsync man page for an explanation)
+rsync error: protocol incompatibility (code 2) at /SourceCache/rsync/rsync-42/rsync/compat.c(61) [sender=2.6.9]
+
+http://my.oschina.net/leejun2005/blog/342865
+
+
+在dev /etc/bashrc中修改
+
+if [ $- == *i* ];then
+    source ~/.bash_profile
+if
+
+然后：
+nohup fswatch -l 0.1 -o ~/web/www-dev -e ~/web/www-dev/.git | xargs -n1 -I{} rsync -avz ~/web/www-dev/ dev:/mnt/home/zhouwei/www/
