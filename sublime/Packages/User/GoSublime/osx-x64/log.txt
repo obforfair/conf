@@ -1,0 +1,12 @@
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.8.3/libexec/pkg/darwin_amd64:/Users/obforfair/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.8.3/libexec", GOPATH:"/Users/obforfair/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.8.3/libexec/pkg/darwin_amd64:/Users/obforfair/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.8.3/libexec", GOPATH:"/Users/obforfair/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.8.3/libexec/pkg/darwin_amd64:/Users/obforfair/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.8.3/libexec", GOPATH:"/Users/obforfair/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.8.3/libexec/pkg/darwin_amd64:/Users/obforfair/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.8.3/libexec", GOPATH:"/Users/obforfair/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.8.3/libexec/pkg/darwin_amd64:/Users/obforfair/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.8.3/libexec", GOPATH:"/Users/obforfair/go", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.8.3/libexec/pkg/darwin_amd64:/Users/obforfair/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.8.3/libexec", GOPATH:"/Users/obforfair/go", InstallSuffix:""}
